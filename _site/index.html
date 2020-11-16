@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Puan Hesaplama | DKitap</title>
+<meta name="title" content="DKitap">
+<meta name="description" content="DKitap LGS Puan Hesaplama">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:title" content="DKitap LGS Puan Hesaplama">
+<meta property="og:image" content="assets/img/logo.png">
+<!-- favicon -->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Puan Hesaplama | DKitap LGS Puan Hesaplama</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Puan Hesaplama" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DKitap LGS Puan Hesaplama" />
+<meta property="og:description" content="DKitap LGS Puan Hesaplama" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="DKitap LGS Puan Hesaplama" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"name":"DKitap LGS Puan Hesaplama","headline":"Puan Hesaplama","description":"DKitap LGS Puan Hesaplama","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet"> -->
+<link href="/assets/css/theme.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+    <section class="navbar-section">
+        <div class="container border-bottom">
+            <div class="row">
+                <nav class="col-12 navbar navbar-expand-lg navbar-light">
+    <div class="mr-auto">
+        <a class="navbar-brand mx-auto" href="https://www.dkitap.com/">
+            <img src="assets/img/logo.png" class="logo" alt="DKitap">
+        </a>
+    </div>
+    <div class="ml-auto">
+        <a href="https://www.dkitap.com/" type="button" class="btn btn-outline-primary">Mağazaya Geri Dön</a>
+    </div>
+</nav>
+            </div>
+        </div>
+    </section>
+    
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
+            <h3> 2020 LGS Puan Hesaplama</h3>
+            <p>* LGS Puan Hesabı için, sınavdaki derslerden yaptığınız doğru ve yanlış sayılarını giriniz.</p>
+        </div>
+    </div>
+    <div class="row baslik">
+        <div class="col-3 text-center">
+            <b>Ders</b>
+        </div>
+        <div class="col-3 text-center">
+            <b>Doğru</b>
+        </div>
+        <div class="col-3 text-center">
+            <b>Yanlış</b>
+        </div>
+        <div class="col-3 text-center">
+            <b>Net</b>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>Türkçe</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtTRKDogru" placeholder="Doğru sayısını giriniz" tabindex="1" type="tel" value="0"
+                id="txtTRKDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtTRKYanlis" placeholder="Yanlış sayısı giriniz" tabindex="2" type="tel" value="0"
+                id="txtTRKYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtTRKNet" type="tel" value="0,00" readonly="readonly" id="txtTRKNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>T.C. İnk. Tarihi</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtINKDogru" style="-wap-input-format: 'N'" placeholder="Doğru sayısını giriniz" tabindex="3"
+                type="tel" value="0" id="txtINKDogru" class="textbox2" onkeypress="sadacesayiformati(this)"
+                autocomplete="off" onblur="YirmiKontrol();">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtINKYanlis" placeholder="Yanlış sayısını giriniz" tabindex="4" type="tel" value="0"
+                id="txtINKYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtINKNet" type="tel" value="0,00" readonly="readonly" id="txtINKNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>Din Kültürü A.B.</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDINDogru" placeholder="Doğru sayısını giriniz" tabindex="5" type="tel" value="0"
+                id="txtDINDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDINYanlis" placeholder="Yanlış sayısını giriniz" tabindex="6" type="tel" value="0"
+                id="txtDINYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDINNet" type="tel" value="0,00" readonly="readonly" id="txtDINNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>İngilizce</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDILDogru" placeholder="Doğru sayısını giriniz" tabindex="7" type="tel" value="0"
+                id="txtDILDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDILYanlis" placeholder="Yanlış sayısını giriniz" tabindex="8" type="tel" value="0"
+                id="txtDILYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtDILNet" type="tel" value="0,00" readonly="readonly" id="txtDILNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>Matematik</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtMATDogru" placeholder="Doğru sayısını giriniz" tabindex="9" type="tel" value="0"
+                id="txtMATDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtMATYanlis" placeholder="Yanlış sayısını giriniz" tabindex="10" type="tel" value="0"
+                id="txtMATYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtMATNet" type="tel" value="0,00" readonly="readonly" id="txtMATNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>Fen Bilimleri</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtFENDogru" placeholder="Doğru sayısını giriniz" tabindex="11" type="tel" value="0"
+                id="txtFENDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtFENYanlis" placeholder="Yanlış sayısını giriniz" tabindex="12" type="tel" value="0"
+                id="txtFENYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off"
+                onblur="YirmiKontrol();" style="color:Black;">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtFENNet" type="tel" value="0,00" readonly="readonly" id="txtFENNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <b>Toplam</b>
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtToplamDogru" placeholder="Toplam Doğru sayısı" type="tel" value="0" readonly="readonly"
+                id="txtToplamDogru" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtToplamYanlis" placeholder="Toplam Yanlış sayısı" type="tel" value="0" readonly="readonly"
+                id="txtToplamYanlis" class="textbox2" onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+        <div class="col-3 text-center">
+            <input name="txtToplamNet" type="tel" value="0,00" readonly="readonly" id="txtToplamNet" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center baslik-sol">
+            <h5 style="color: #ff6c00;">Puan:</h5>
+        </div>
+        <div class="col-9">
+            <input name="txtToplamPuan" type="tel" value="0" readonly="readonly" id="txtToplamPuan" class="textbox2"
+                onkeypress="sadacesayiformati(this)" autocomplete="off">
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+
+   <footer class="col-12 footer text-center">
+    <div class="container border-top">
+        <div class="row">
+            <div class="col-12 footer-text">
+                <strong>© DKitap</strong> 2020, Tüm Hakları Mahfuzdur.
+            </div>     
+        </div>   
+    </div>
+</footer>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="/assets/js/app.js"></script>
+</body>

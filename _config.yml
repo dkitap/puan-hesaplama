@@ -1,0 +1,33 @@
+# Site
+name: "DKitap"
+title: "DKitap LGS Puan Hesaplama"
+description: "DKitap LGS Puan Hesaplama"
+meta_description: "DKitap LGS Puan Hesaplama"
+logo: 'assets/img/logo.png'
+baseurl: ''
+email: 'iletisim@dkitap.com'
+permalink: "/:title/"
+
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+gem:
+    -jekyll-sitemap
