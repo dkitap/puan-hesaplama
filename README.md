@@ -1,2 +1,1 @@
-# puan-hesaplama
-LGS Puan Hesaplama Sayfası
+Offical DKitap OpenSource Github Account
